@@ -47,7 +47,6 @@ Open-sourced terminal/ssh/telnet/serialport/sftp client(linux, mac, win).
 - [sourceforge](https://sourceforge.net/projects/electerm.mirror/files/)
 - [github releases](https://github.com/electerm/electerm/releases)
 
-```
 
 ## Sponsor this project
 
