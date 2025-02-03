@@ -41,6 +41,7 @@ Open-sourced terminal/ssh/telnet/serialport/sftp client(linux, mac, win).
 - Sync bookmarks/themes/quick commands to github/gitee secret gist
 - Quick input to one or all terminals.
 - Command line usage: check [wiki](https://github.com/electerm/electerm/wiki/Command-line-usage)
+- AI assistant integration (supporting [DeepSeek](https://www.deepseek.com), OpenAI, and other AI APIs) to help with command suggestions, script writing, and explaining selected terminal content
 
 ## Download
 
