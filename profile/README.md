@@ -16,7 +16,13 @@
 [![Get it from the Microsoft Store](https://img.shields.io/badge/Microsoft-Store-blue)](https://www.microsoft.com/store/apps/9NCN7272GTFF)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/electerm?label=Sponsors)](https://github.com/sponsors/electerm)
 
-Open-sourced terminal/ssh/telnet/serialport/sftp client(linux, mac, win).
+Open-sourced terminal/ssh/telnet/serialport/RDP/VNC/sftp/ftp client(linux, mac, win).
+
+Powered by [manate](https://github.com/tylerlong/manate)
+
+For experienced developers, you may try the web app version running in browser(including mobile device): [electerm-web](https://github.com/electerm/electerm-web) or [docker image for electerm-web](https://github.com/electerm/electerm-web-docker)
+
+Online demo: [https://electerm-demo.html5beta.com](https://electerm-demo.html5beta.com)
 
 <div align="center">
   <img src="https://github.com/electerm/electerm-resource/raw/master/static/images/electerm.gif", alt="" />
@@ -24,10 +30,10 @@ Open-sourced terminal/ssh/telnet/serialport/sftp client(linux, mac, win).
 
 ## Features
 
-- Works as a terminal/file manager or ssh/telnet/serialport/RDP/VNC/sftp client
+- Works as a terminal/file manager or ssh/sftp/ftp/telnet/serialport/RDP/VNC client
 - Global hotkey to toggle window visibility (similar to guake, default is `ctrl + 2`)
 - Multi platform(linux, mac, win)
-- 🇺🇸 🇨🇳 🇧🇷 🇷🇺 🇪🇸 🇫🇷 🇹🇷 🇭🇰 🇯🇵 🇸🇦 🇩🇪 🇰🇷 Multi-language support([electerm-locales](https://github.com/electerm/electerm-locales), contributions/fixes welcome)
+- 🇺🇸 🇨🇳 🇧🇷 🇷🇺 🇪🇸 🇫🇷 🇹🇷 🇭🇰 🇯🇵 🇸🇦 🇩🇪 🇰🇷 🇮🇩 🇵🇱 Multi-language support([electerm-locales](https://github.com/electerm/electerm-locales), contributions/fixes welcome)
 - Double click to directly edit (small) remote files.
 - Auth with publicKey + password.
 - Support Zmodem(rz, sz).
@@ -40,11 +46,12 @@ Open-sourced terminal/ssh/telnet/serialport/sftp client(linux, mac, win).
 - UI/terminal theme
 - Sync bookmarks/themes/quick commands to github/gitee secret gist
 - Quick input to one or all terminals.
-- Command line usage: check [wiki](https://github.com/electerm/electerm/wiki/Command-line-usage)
 - AI assistant integration (supporting [DeepSeek](https://www.deepseek.com), OpenAI, and other AI APIs) to help with command suggestions, script writing, and explaining selected terminal content
+- Command line usage: check [wiki](https://github.com/electerm/electerm/wiki/Command-line-usage)
 
 ## Download
 
+- [Homepage](https://electerm.html5beta.com)
 - [sourceforge](https://sourceforge.net/projects/electerm.mirror/files/)
 - [github releases](https://github.com/electerm/electerm/releases)
 
