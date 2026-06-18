@@ -1,72 +1,78 @@
 <h1 align="center" style="padding-top: 60px;padding-bottom: 40px;">
-    <a href="https://electerm.github.io/electerm">
+    <a href="https://electerm.org">
         <img src="https://github.com/electerm/electerm-resource/raw/master/static/images/electerm.png", alt="" />
     </a>
 </h1>
 
-[中文](https://github.com/electerm/electerm/blob/master/README_cn.md)
+# electerm
 
-# electerm [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Open%20sourced%20terminal%2Fssh%2Fsftp%20client(linux%2C%20mac%2C%20win)&url=https%3A%2F%2Fgithub.com%2Felecterm%2Felecterm&hashtags=electerm,ssh,terminal,sftp)
-
-[![GitHub version](https://img.shields.io/github/release/electerm/electerm/all.svg)](https://github.com/electerm/electerm/releases)
-[![Build Status](https://github.com/electerm/electerm/actions/workflows/mac-test-1.yml/badge.svg)](https://github.com/electerm/electerm/actions)
-[![license](https://img.shields.io/github/license/electerm/electerm.svg)](https://github.com/electerm/electerm/blob/master/LICENSE)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Get it from the Snap Store](https://img.shields.io/badge/Snap-Store-green)](https://snapcraft.io/electerm)
-[![Get it from the Microsoft Store](https://img.shields.io/badge/Microsoft-Store-blue)](https://www.microsoft.com/store/apps/9NCN7272GTFF)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/electerm?label=Sponsors)](https://github.com/sponsors/electerm)
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=c10bcb28b846&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
-
-[![Vercel OSS Program](https://github.com/electerm/electerm-resource/blob/master/static/images/vercel-oss-2005.png?raw=true)](https://oss-directory.vercel.app)
-
-Open-sourced terminal/ssh/telnet/serialport/RDP/VNC/sftp/ftp client(linux, mac, win).
-
-Powered by [manate](https://github.com/tylerlong/manate)
-
-For experienced developers, you may try the web app version running in browser(including mobile device): [electerm-web](https://github.com/electerm/electerm-web) or [docker image for electerm-web](https://github.com/electerm/electerm-web-docker)
-
-Online demo: [https://electerm-demo.html5beta.com](https://electerm-demo.html5beta.com)
+Open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client(linux, mac, win).
 
 <div align="center">
   <img src="https://github.com/electerm/electerm-resource/raw/master/static/images/electerm.gif", alt="" />
 </div>
 
+## Projects
+
+| Project | Description |
+|---------|-------------|
+| [electerm](https://github.com/electerm/electerm) | Desktop app (Linux, Mac, Windows) |
+| [electerm-web](https://github.com/electerm/electerm-web) | Browser-based version (including mobile) |
+| [electerm-web-docker](https://github.com/electerm/electerm-web-docker) | Docker image for electerm-web |
+| [electerm online](https://cloud.electerm.org) | Public free online app |
+| [electerm demo](https://demo.electerm.org) | Online demo |
+| [electerm-locales](https://github.com/electerm/electerm-locales) | Multi-language support |
+
 ## Features
 
-- Works as a terminal/file manager or ssh/sftp/ftp/telnet/serialport/RDP/VNC client
-- Global hotkey to toggle window visibility (similar to guake, default is `ctrl + 2`)
-- Multi platform(linux, mac, win)
-- 🇺🇸 🇨🇳 🇧🇷 🇷🇺 🇪🇸 🇫🇷 🇹🇷 🇭🇰 🇯🇵 🇸🇦 🇩🇪 🇰🇷 🇮🇩 🇵🇱 Multi-language support([electerm-locales](https://github.com/electerm/electerm-locales), contributions/fixes welcome)
-- Double click to directly edit (small) remote files.
-- Auth with publicKey + password.
-- Support Zmodem(rz, sz).
-- Support ssh tunnel.
-- Support [Trzsz](https://github.com/trzsz/trzsz)(trz/tsz), similar to rz/sz, and compatible with tmux.
-- Transparent window(Mac, win).
-- Terminal background image.
-- Global/session proxy.
-- Quick commands
-- UI/terminal theme
-- Sync bookmarks/themes/quick commands to github/gitee secret gist
-- Quick input to one or all terminals.
-- AI assistant integration (supporting [DeepSeek](https://www.deepseek.com), OpenAI, and other AI APIs) to help with command suggestions, script writing, and explaining selected terminal content
-- Command line usage: check [wiki](https://github.com/electerm/electerm/wiki/Command-line-usage)
+- Terminal/file manager, ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client
+- Global hotkey to toggle window visibility (default `ctrl + 2`)
+- Multi-platform (Linux, Mac, Windows) with multi-language support
+- Double-click editing of remote files
+- Auth with publicKey + password
+- Zmodem (rz, sz) and [Trzsz](https://github.com/trzsz/trzsz) support, compatible with tmux
+- SSH tunnel support
+- Transparent window (Mac, Win), terminal background image
+- Global/session proxy
+- Quick commands and UI/terminal theming
+- Sync bookmarks/themes/quick commands to github/gitee gist/webdav/custom server/electerm cloud
+- Quick input to one or all terminals
+- AI assistant integration (DeepSeek, OpenAI, and other AI APIs)
+- MCP (Model Context Protocol) widget for AI assistants and external tools
+- Deep link support (e.g. `ssh://user@host:22`, `telnet://192.168.2.31:34554`)
 
-## Download
+## Install
 
-- [Homepage](https://electerm.html5beta.com)
-- [sourceforge](https://sourceforge.net/projects/electerm.mirror/files/)
-- [github releases](https://github.com/electerm/electerm/releases)
+```bash
+# Mac
+brew install --cask electerm
 
+# Snap
+sudo snap install electerm --classic
 
-## Sponsor this project
+# Windows (winget)
+winget install electerm.electerm
 
-open collective
+# npm
+npm i -g electerm
+```
 
-[![open collective badge](https://opencollective.com/electerm/tiers/backer.svg?avatarHeight=36&width=600)](https://opencollective.com/electerm)
+Also available on [Microsoft Store](https://www.microsoft.com/store/apps/9NCN7272GTFF), [SourceForge](https://sourceforge.net/projects/electerm.mirror/files/), and [GitHub Releases](https://github.com/electerm/electerm/releases). Some Linux distros have it in their default app store.
 
-wechat donate
+## Links
 
-[![wechat donate](https://github.com/electerm/electerm-resource/raw/master/static/images/electerm-wechat-donate.png)](https://github.com/electerm)
+- 🌐 [Homepage](https://electerm.org)
+- 📖 [Wiki](https://github.com/electerm/electerm/wiki)
+- 💬 [Discussions](https://github.com/electerm/electerm/discussions) · [Discord](https://discord.gg/s4wv4N4e)
+- 🐛 [Issues](https://github.com/electerm/electerm/issues)
+- 📹 [Video guide](https://electerm.org/videos)
+- 📋 [Changelog](https://github.com/electerm/electerm/releases)
 
+## Sponsor
+
+- [GitHub Sponsors](https://github.com/sponsors/electerm)
+- [Ko-fi](https://ko-fi.com/zhaoxudong)
+
+## License
+
+MIT
