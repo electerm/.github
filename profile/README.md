@@ -59,6 +59,13 @@ npm i -g electerm
 
 Also available on [Microsoft Store](https://www.microsoft.com/store/apps/9NCN7272GTFF), [SourceForge](https://sourceforge.net/projects/electerm.mirror/files/), and [GitHub Releases](https://github.com/electerm/electerm/releases). Some Linux distros have it in their default app store.
 
+### Linux package repositories
+
+Prefer installing from your system's package manager? electerm provides dedicated apt and yum/dnf repositories:
+
+- **deb (Debian/Ubuntu):** [https://repos.electerm.org/deb/](https://repos.electerm.org/deb/)
+- **rpm (Fedora/RHEL/CentOS/openSUSE):** [https://repos.electerm.org/rpm/](https://repos.electerm.org/rpm/)
+
 ## Links
 
 - 🌐 [Homepage](https://electerm.org)
