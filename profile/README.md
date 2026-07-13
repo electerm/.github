@@ -78,6 +78,7 @@ Prefer installing from your system's package manager? electerm provides dedicate
 - 🐛 [Issues](https://github.com/electerm/electerm/issues)
 - 📹 [Video guide](https://electerm.org/videos)
 - 📋 [Changelog](https://github.com/electerm/electerm/releases)
+- 🤖 [electerm AI](https://ai.electerm.org): Free AI for electerm users
 
 ## Sponsor
 
