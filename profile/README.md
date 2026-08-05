@@ -29,6 +29,7 @@ Open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client(linux,
 | [electerm AI](https://ai.electerm.org) | Free AI for electerm users |
 | [electerm theme](https://theme.electerm.org) | Create/share theme site with live preview and AI creation |
 | [electerm-android](https://github.com/electerm/electerm-android) | Android app |
+| [electerm-harmony](https://github.com/electerm/electerm-harmony) | HarmonyOS app (available on [Huawei AppGallery](https://appgallery.huawei.com/app/detail?id=org.electerm.electerm)) |
 
 ## Features
 
