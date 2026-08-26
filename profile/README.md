@@ -10,9 +10,9 @@
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/electerm?label=Sponsors)](https://github.com/sponsors/electerm)
 [![star](https://atomgit.com/electerm/electerm/star/badge.svg)](https://atomgit.com/electerm/electerm)
 
-Open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client family(Linux, Mac, Windows, Android, HarmonyOS, and web).
+Open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client family(Linux, Mac, Windows, Android, HarmonyOS, iOS, and web).
 
-Besides mainstream Windows/macOS/Linux/Android, electerm also supports HarmonyOS, and older systems — Ubuntu 18, Windows 7, macOS 10+, and special Chinese Linux distributions such as UOS, Kylin, and LoongArch (both old-world and new-world).
+Besides mainstream Windows/macOS/Linux/Android, electerm also supports HarmonyOS, iOS, and older systems — Ubuntu 18, Windows 7, macOS 10+, and special Chinese Linux distributions such as UOS, Kylin, and LoongArch (both old-world and new-world).
 
 <p>
   <a href="https://electerm.org">Homepage / Downloads</a> ·
@@ -21,6 +21,7 @@ Besides mainstream Windows/macOS/Linux/Android, electerm also supports HarmonyOS
   <a href="https://demo.electerm.org">Online demo</a> ·
   <a href="https://github.com/electerm/electerm-android">Android</a> ·
   <a href="https://github.com/electerm/electerm-harmony">HarmonyOS</a> ·
+  <a href="https://apps.apple.com/cn/app/electerm/id6792971552">Apple App Store</a> ·
   <a href="https://appgallery.huawei.com/app/detail?id=org.electerm.electerm">Huawei AppGallery</a> ·
   <a href="https://www.microsoft.com/store/apps/9NCN7272GTFF">Microsoft Store</a> ·
   <a href="https://snapcraft.io/electerm">Snap Store</a> ·
@@ -39,7 +40,7 @@ Besides mainstream Windows/macOS/Linux/Android, electerm also supports HarmonyOS
 ## Features
 
 - Terminal/file manager, ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client
-- Multi-platform (Linux, Mac, Windows, Android, HarmonyOS) with multi-language support
+- Multi-platform (Linux, Mac, Windows, Android, HarmonyOS, iOS) with multi-language support
 - Global hotkey to toggle window visibility (default `ctrl + 2`)
 - Double-click editing of remote files
 - Auth with publicKey + password
